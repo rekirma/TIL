@@ -6,7 +6,8 @@ for i in old_list:
 
 print(result)
 # comprehension
-result = [i for i in old_list]
+result = [i for i in old_list if i%2 ==0]
 print(result)
+
 
 
